@@ -1,1 +1,46 @@
+body{
+    background: url(beliyfon.png);
+    background-size: cover;
+    background-repeat: repeat;
+    justify-content: center;
+    display: flex;
+    color: lightcoral;
+}
+form{
+    border-radius: 25px;
+    padding: 35px 15px;
+    max-width: 450px;
+    max-height: 500px;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(16px);
+    margin-top: 17vh;
+    margin-right: 300px
+}
+.tab-nav-container {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 15px 10px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 16%);
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    right: 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 37px;
+    transition: bottom ease .5s;
+    width: 100vw;
+    z-index: 90;
+}
+.block10{
+    position: absolute;
+    bottom: 15px;
+    right: 45px;
+    top: 10px;
+}
+img{
+    position: fixed;
+    right: 300px;
+    height: 400px;
+}
 
