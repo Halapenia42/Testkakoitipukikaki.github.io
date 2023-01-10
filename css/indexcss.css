@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(heroscreen-54511651.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    display: flex;
+}
+.block{
+    border-radius: 25px;
+    padding: 35px 15px;
+    max-width: 500px;
+    max-height: 80px;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(16px);
+    margin-top: 30vh;
+}
+.block h1{
+    font-family: arial;
+    font-weight: normal;
+    font-size: 25px;
+    color:white;
+}
+.block{
+    color: navajowhite;
+}
